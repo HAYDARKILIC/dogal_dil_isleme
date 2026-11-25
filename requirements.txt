@@ -1,0 +1,37 @@
+# Not: 1–12. hafta not defterleri yalnızca numpy, matplotlib, torch ve tokenizers gerektirir.
+# Diğer paketler alıştırmalar ve bitirme projesi içindir.
+
+# Temel bilimsel yığın
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+scikit-learn>=1.4
+
+# Derin öğrenme
+torch>=2.2
+
+# NLP'ye özgü
+transformers>=4.40
+datasets>=2.18
+tokenizers>=0.15
+sentencepiece>=0.2
+sacrebleu>=2.4
+rouge-score>=0.1.2
+
+# Not defterleri
+jupyterlab>=4.0
+ipywidgets>=8.1
+tqdm>=4.66
+
+# Erişim ve indeksleme (hafta 11-12)
+faiss-cpu>=1.7
+sentence-transformers>=2.7
+
+# PEFT ve hizalama (hafta 10)
+peft>=0.10
+accelerate>=0.29
+trl>=0.8
+
+# Değerlendirme (hafta 11)
+evaluate>=0.4
